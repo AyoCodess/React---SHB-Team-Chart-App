@@ -1,14 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./scss/index.scss";
+import reportWebVitals from "./reportWebVitals";
+import CardList from "./CardList";
+import "tachyons";
+import { people } from "./people";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CardList people={people} />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
