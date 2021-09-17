@@ -1,17 +1,5 @@
 export const people = [
   {
-    id: 1,
-    title: "Trustee",
-    name: "Ayo Adesanya",
-    email: "ayo@stopholdingback.com",
-    image: "https://i.imgur.com/FRIs3ds.png?1",
-    website: "http://www.ayoadesanya.com",
-    linkedin: "https://www.linkedin.com/in/ayoadesanya/",
-    instagram: "https://www.instagram.com/ayo.stopholdingback/",
-    twitter: "https://twitter.com/Ayo__Codes",
-  },
-
-  {
     id: 2,
     title: "Trustee",
     name: "Chris Jackson",
@@ -34,6 +22,19 @@ export const people = [
     instagram: "https://www.instagram.com/rubanpillai/",
     twitter: "https://twitter.com/RubanPillai",
   },
+
+  {
+    id: 1,
+    title: "Trustee",
+    name: "Ayo Adesanya",
+    email: "ayo@stopholdingback.com",
+    image: "https://i.imgur.com/FRIs3ds.png?1",
+    website: "http://www.ayoadesanya.com",
+    linkedin: "https://www.linkedin.com/in/ayoadesanya/",
+    instagram: "https://www.instagram.com/ayo.stopholdingback/",
+    twitter: "https://twitter.com/Ayo__Codes",
+  },
+
   {
     id: 4,
     title: "Trustee",
