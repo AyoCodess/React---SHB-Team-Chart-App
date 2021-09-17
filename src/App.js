@@ -49,7 +49,13 @@ class App extends Component {
         </div>
         <footer>
           <p className=" tc footer-title">
-            <a href="https://www.stopholdingback.org">stopholdingback.org</a>
+            <a
+              href="https://www.stopholdingback.org"
+              target="_blank"
+              rel="noreferrer"
+            >
+              stopholdingback.org
+            </a>
           </p>
         </footer>
       </>
