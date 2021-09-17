@@ -35,7 +35,7 @@ class App extends Component {
         <div className="main-app tc">
           <h1 className=" app-title tc f1">SHB Organization</h1>
           <p className="app-description">
-            Search my staff member name or title.
+            Search by staff member name or title.
           </p>
           <Searchbox searchChange={this.onSearchChange} />
           <CardList people={filteredPeople} />;
