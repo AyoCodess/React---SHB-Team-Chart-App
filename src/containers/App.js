@@ -46,7 +46,9 @@ class App extends Component {
           </p>
           <Searchbox searchChange={this.onSearchChange} />
           <Scroll>
-            <CardList people={filteredPeople} />;
+            <ErrorBoundary>
+              <CardList people={filteredPeople} />;
+            </ErrorBoundary>
           </Scroll>
         </div>
         <footer>
