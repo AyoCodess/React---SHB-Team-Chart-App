@@ -2,24 +2,38 @@ body {
   font-family: lato;
 }
 
+.header {
+  margin: 2rem auto;
+  border: 1px lightgray solid;
+  border-radius: 3rem;
+  width: 40rem;
+  padding: 1rem;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  @media (max-width: 370px) {
+    width: 30rem;
+  }
+}
+
 .app-title {
   font-family: lato;
   font-weight: 300;
-  font-size: 5rem;
+  font-size: 3rem;
   color: purple;
   margin: 2rem 0;
 
   @media (max-width: 370px) {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 }
 
 .app-title--sub {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
 
   @media (max-width: 370px) {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 

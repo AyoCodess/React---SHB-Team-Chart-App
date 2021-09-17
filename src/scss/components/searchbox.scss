@@ -1,13 +1,14 @@
 .searchbox-container {
   .searchbox {
-    margin: auto;
     font-family: lato;
     width: 30rem;
     font-size: 1.5rem;
     border-radius: 1rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: 1px solid lightgray;
 
-    margin-bottom: 2rem;
+    margin: 2rem 0 2rem 0;
 
     @media (max-width: 370px) {
       width: 25rem;
