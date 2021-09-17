@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./scss/index.scss";
+import "./scss/containers/index.scss";
 import reportWebVitals from "./reportWebVitals";
-import App from "./App";
+import App from "./containers/App";
 import "tachyons";
 
 ReactDOM.render(

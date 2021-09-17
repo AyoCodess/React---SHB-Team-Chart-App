@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import Searchbox from "./Searchbox";
-import CardList from "./CardList";
-import { people } from "./people";
-import Fragment from "react";
-import "./scss/app.scss";
-import Scroll from "./Scroll";
+import Searchbox from "../components/Searchbox";
+import CardList from "../components/CardList";
+import Scroll from "../components/Scroll";
+import { people } from "../data/people";
+import "../scss/containers/app.scss";
 
 class App extends Component {
   constructor() {
