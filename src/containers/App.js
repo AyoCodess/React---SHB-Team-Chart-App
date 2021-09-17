@@ -4,6 +4,7 @@ import CardList from "../components/CardList";
 import Scroll from "../components/Scroll";
 import { people } from "../data/people";
 import "../scss/containers/app.scss";
+import ErrorBoundary from "../components/errorBoundary";
 
 class App extends Component {
   constructor() {
@@ -37,7 +38,9 @@ class App extends Component {
     return (
       <>
         <div className="main-app tc">
-          <h1 className=" app-title tc f1">SHB Organization</h1>
+          <h1 className=" app-title tc ">SHB Organization</h1>
+          <h2 className=" app-title app-title--sub tc">Find a Mentor</h2>
+
           <p className="app-description">
             Search by staff member name or title.
           </p>
