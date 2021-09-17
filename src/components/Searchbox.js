@@ -10,6 +10,7 @@ const Searchbox = ({ searchfield, searchChange }) => {
         placeholder="Search for staff members"
         onChange={searchChange}
       />
+      {/* <p className="searchbox-heading"> Scroll through staff</p> */}
     </div>
   );
 };
