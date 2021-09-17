@@ -7,11 +7,13 @@ const CardList = ({ people }) => {
       {people.map((user, i) => {
         return (
           <Card
-            key={Math.random()}
+            key={i}
             id={people[i].id}
             name={people[i].name}
             email={people[i].email}
             image={people[i].image}
+            title={people[i].title}
+            website={people[i].website}
           />
         );
       })}
