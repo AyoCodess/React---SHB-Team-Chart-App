@@ -2,7 +2,15 @@
   .searchbox {
     margin: auto;
     font-family: lato;
-    width: 20rem;
+    width: 30rem;
     font-size: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    margin-bottom: 2rem;
+
+    @media (max-width: 370px) {
+      width: 25rem;
+    }
   }
 }

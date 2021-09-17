@@ -4,5 +4,11 @@ body {
 
 .app-title {
   font-family: lato;
-  font-size: 3rem;
+  font-weight: 300;
+  font-size: 5rem;
+  color: purple;
+
+  @media (max-width: 370px) {
+    font-size: 3.5rem;
+  }
 }

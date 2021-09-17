@@ -14,9 +14,9 @@ const CardList = ({ people }) => {
             image={people[i].image}
             title={people[i].title}
             website={people[i].website}
-            linkedin={people[i].website}
-            twitter={people[i].website}
-            instagram={people[i].website}
+            linkedin={people[i].linkedin}
+            twitter={people[i].twitter}
+            instagram={people[i].instagram}
           />
         );
       })}

@@ -26,7 +26,7 @@ const Card = ({
         <div className="card-image">
           <img src={image} alt={name} />
         </div>
-        <div>
+        <div className="card-text-content">
           <h1 className="card-title"> {title} </h1>
           <h2 className="card-name"> {name} </h2>
           <p className="card-email">{email}</p>

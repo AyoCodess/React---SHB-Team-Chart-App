@@ -14,6 +14,12 @@ code {
   justify-content: center;
 }
 
+.card-text-content {
+  @media (max-width: 370px) {
+    width: 16rem;
+  }
+}
+
 .card-body {
   display: flex;
   align-items: center;
@@ -40,10 +46,20 @@ code {
 
   color: white;
 
+  @media (max-width: 370px) {
+    width: 30rem;
+    height: 20rem;
+  }
+
   .card-image {
     width: 20rem;
     height: 20rem;
     // margin: 1rem 0 1rem 1rem;
+
+    @media (max-width: 370px) {
+      width: 50%;
+      height: 20rem;
+    }
 
     img {
       object-fit: cover;
