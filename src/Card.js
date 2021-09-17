@@ -3,7 +3,23 @@ import "./scss/card.scss";
 import "tachyons";
 import Fragment from "react";
 
-const Card = ({ name, email, image, id, title, website }) => {
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+library.add(fab);
+
+const Card = ({
+  name,
+  email,
+  image,
+  id,
+  title,
+  website,
+  linkedin,
+  instagram,
+  twitter,
+}) => {
   return (
     <>
       <div className=" grow card-body">
@@ -17,6 +33,31 @@ const Card = ({ name, email, image, id, title, website }) => {
           <a href={website}>
             <span className="card-website">Website</span>
           </a>
+          <div className="card-social-media-container">
+            <ul>
+              <li>
+                <a href={linkedin}>
+                  <span>
+                    <FontAwesomeIcon icon={["fab", "linkedin"]} />
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href={instagram}>
+                  <span>
+                    <FontAwesomeIcon icon={["fab", "instagram"]} />
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href={twitter}>
+                  <span>
+                    <FontAwesomeIcon icon={["fab", "twitter"]} />
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </>

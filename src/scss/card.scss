@@ -72,4 +72,22 @@ code {
   .card-website {
     color: white;
   }
+
+  .card-social-media-container {
+    ul {
+      list-style: none;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+
+      li {
+        padding: 0 0.8rem;
+
+        a {
+          font-size: 2rem;
+          color: white;
+        }
+      }
+    }
+  }
 }

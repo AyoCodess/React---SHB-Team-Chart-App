@@ -6,6 +6,9 @@ export const people = [
     email: "ayo@stopholdingback.com",
     image: "https://i.imgur.com/FRIs3ds.png?1",
     website: "http://www.ayoadesanya.com",
+    linkedin: "https://www.linkedin.com/in/ayoadesanya/",
+    instagram: "https://www.instagram.com/ayo.stopholdingback/",
+    twitter: "https://twitter.com/Ayo__Codes",
   },
 
   {
@@ -15,6 +18,9 @@ export const people = [
     email: "cj@stopholdingback.com",
     image: "https://i.imgur.com/KfrhNKl.png",
     website: "",
+    linkedin: "",
+    instagram: "",
+    twitter: "",
   },
 
   {
@@ -24,6 +30,9 @@ export const people = [
     email: "ruban@stopholdingback.com",
     image: "https://i.imgur.com/yYI0g50.png",
     website: "",
+    linkedin: "",
+    instagram: "",
+    twitter: "",
   },
   {
     id: 4,
@@ -32,6 +41,9 @@ export const people = [
     email: "ruban@stopholdingback.com",
     image: "https://i.imgur.com/7506LkW.png",
     website: "",
+    linkedin: "",
+    instagram: "",
+    twitter: "",
   },
   {
     id: 5,
@@ -40,5 +52,8 @@ export const people = [
     email: "ruban@stopholdingback.com",
     image: "https://imgur.com/RBIBQ6t.png",
     website: "",
+    linkedin: "",
+    instagram: "",
+    twitter: "",
   },
 ];
