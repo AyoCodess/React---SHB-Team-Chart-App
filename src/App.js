@@ -4,14 +4,19 @@ import CardList from "./CardList";
 import { people } from "./people";
 import Fragment from "react";
 import "./scss/app.scss";
+import Scroll from "./Scroll";
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      people: people,
+      people: [],
       searchfield: "",
     };
+  }
+
+  componentDidMount() {
+    this.setState({ people: people });
   }
 
   onSearchChange = (event) => {
@@ -38,7 +43,9 @@ class App extends Component {
             Search by staff member name or title.
           </p>
           <Searchbox searchChange={this.onSearchChange} />
-          <CardList people={filteredPeople} />;
+          <Scroll>
+            <CardList people={filteredPeople} />;
+          </Scroll>
           <footer>
             <p className="footer-title">
               <a href="https://www.stopholdingback.org">stopholdingback.org</a>
