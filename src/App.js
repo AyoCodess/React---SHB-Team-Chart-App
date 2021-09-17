@@ -46,12 +46,12 @@ class App extends Component {
           <Scroll>
             <CardList people={filteredPeople} />;
           </Scroll>
-          <footer>
-            <p className="footer-title">
-              <a href="https://www.stopholdingback.org">stopholdingback.org</a>
-            </p>
-          </footer>
         </div>
+        <footer>
+          <p className=" tc footer-title">
+            <a href="https://www.stopholdingback.org">stopholdingback.org</a>
+          </p>
+        </footer>
       </>
     );
   }

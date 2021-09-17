@@ -1,4 +1,3 @@
-import { faBlackberry } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import "./scss/scroll.scss";
 
