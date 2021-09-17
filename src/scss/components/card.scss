@@ -15,7 +15,7 @@ code {
 }
 
 .card-text-content {
-  @media (max-width: 370px) {
+  @media (max-width: 450px) {
     width: 16rem;
   }
 }
@@ -46,7 +46,7 @@ code {
 
   color: white;
 
-  @media (max-width: 370px) {
+  @media (max-width: 450px) {
     width: 30rem;
     height: 20rem;
   }
@@ -56,7 +56,7 @@ code {
     height: 20rem;
     // margin: 1rem 0 1rem 1rem;
 
-    @media (max-width: 370px) {
+    @media (max-width: 450px) {
       width: 50%;
       height: 20rem;
     }

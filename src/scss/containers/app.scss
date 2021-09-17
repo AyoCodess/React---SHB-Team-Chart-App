@@ -11,7 +11,7 @@ body {
 
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
-  @media (max-width: 380px) {
+  @media (max-width: 450px) {
     width: 27rem;
   }
 }
@@ -23,7 +23,7 @@ body {
   color: purple;
   margin: 1rem 0;
 
-  @media (max-width: 380px) {
+  @media (max-width: 450px) {
     font-size: 2.5rem;
   }
 }
@@ -33,7 +33,7 @@ body {
   margin-bottom: 1rem;
   font-weight: bold;
 
-  @media (max-width: 380px) {
+  @media (max-width: 450px) {
     font-size: 2rem;
   }
 }
