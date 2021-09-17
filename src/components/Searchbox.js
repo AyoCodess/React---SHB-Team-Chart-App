@@ -7,7 +7,7 @@ const Searchbox = ({ searchfield, searchChange }) => {
       <input
         className="searchbox pa3 ba"
         type="search"
-        placeholder="Search for staff members"
+        placeholder="Search by staff member name or title"
         onChange={searchChange}
       />
       {/* <p className="searchbox-heading"> Scroll through staff</p> */}

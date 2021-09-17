@@ -42,7 +42,8 @@ class App extends Component {
             <h1 className=" app-title tc ">SHB Organisation</h1>
             <h2 className=" app-title app-title--sub tc">Find a Mentor</h2>
             <p className="app-description">
-              Search by staff member name or title.
+              Feel free to contact any of us if you need support or have any
+              questions.
             </p>
           </div>
           <Searchbox searchChange={this.onSearchChange} />
