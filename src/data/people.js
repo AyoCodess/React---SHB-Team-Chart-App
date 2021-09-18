@@ -9,6 +9,8 @@ export const people = [
     linkedin: "https://www.linkedin.com/in/christopher-jackson-203a20140/",
     instagram: "https://www.instagram.com/imchrisjackson/",
     twitter: "",
+    location: "United Kingdom",
+    job: "Director (Recruitment)",
   },
 
   {
@@ -21,6 +23,8 @@ export const people = [
     linkedin: "https://www.linkedin.com/in/ruban-pillai/",
     instagram: "https://www.instagram.com/rubanpillai/",
     twitter: "https://twitter.com/RubanPillai",
+    location: "United Kingdom",
+    job: "Financial Services",
   },
 
   {
@@ -33,6 +37,8 @@ export const people = [
     linkedin: "https://www.linkedin.com/in/ayoadesanya/",
     instagram: "https://www.instagram.com/ayo.stopholdingback/",
     twitter: "https://twitter.com/Ayo__Codes",
+    location: "United Kingdom",
+    job: "Wordpress & React Web Developer",
   },
 
   {
@@ -45,6 +51,8 @@ export const people = [
     linkedin: "https://www.linkedin.com/in/james-redhead-b55482186/",
     instagram: "",
     twitter: "",
+    location: "United Kingdom",
+    job: "Charity Consultant",
   },
   {
     id: 5,
@@ -56,5 +64,20 @@ export const people = [
     linkedin: "",
     instagram: "https://www.instagram.com/comedy_callums/",
     twitter: "https://twitter.com/comedy_callums",
+    location: "United Kingdom",
+    job: "Teacher",
+  },
+  {
+    id: 6,
+    title: "Mentor",
+    name: "Nick Noriega",
+    email: "Na",
+    image: "https://i.imgur.com/WvNX6sG.jpg",
+    website: "Na",
+    linkedin: "",
+    instagram: "Na",
+    twitter: "Na",
+    location: "United States",
+    job: "Mechanic",
   },
 ];

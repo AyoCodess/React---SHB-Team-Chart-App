@@ -17,6 +17,8 @@ const CardList = ({ people }) => {
             linkedin={people[i].linkedin}
             twitter={people[i].twitter}
             instagram={people[i].instagram}
+            location={people[i].location}
+            job={people[i].job}
           />
         );
       })}

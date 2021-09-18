@@ -19,6 +19,8 @@ const Card = ({
   linkedin,
   instagram,
   twitter,
+  job,
+  location,
 }) => {
   return (
     <>
@@ -34,8 +36,10 @@ const Card = ({
               {email}{" "}
             </a>
           </p>
+          <p className="card-job">{job}</p>
+          <p className="card-location">{location}</p>
           <a href={website} target="_blank" rel="noreferrer">
-            <span className="card-website">Website</span>
+            <span className="card-website">(Click Me)</span>
           </a>
           <div className="card-social-media-container">
             <ul>
