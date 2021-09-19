@@ -9,8 +9,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 library.add(fab);
 
-
-
 class Card extends Component {
 
     constructor (name, email, image, id, title, website, linkedin, instagram, twitter, job, location) {
@@ -28,7 +26,7 @@ class Card extends Component {
         twitter = this.instagram;
         job = this.job;
         location = this.location;
-        
+
         this.state = {
             hasName: false,
             hasEmail: false,
@@ -41,8 +39,9 @@ class Card extends Component {
             hasTwitter: false,
             hasJob: false,
             hasLocation: false
-           
+
         };
+    }
 
         hasName() {
             this.setState({hasName: true})
@@ -96,19 +95,18 @@ class Card extends Component {
             const  userHasJob = this.state.hasJob;
             const  userHasLocation = this.state.hasLocation;
 
-
             if (userHasName && userHasImage) {
-                return hasNameAndImage = 
+                return hasNameAndImage =
                 <div className="card-image">
                     <img src={image} alt={name} />
 
                 </div>
-                
+
             }
 
             if (userHasTitle && userHasName && userHasEmail) {
                 return  hasBasicInfo =
-                <div className="card-text-content"> 
+                <div className="card-text-content">
                     <h1 className="card-title"> {title} </h1>
                     <h2 className="card-name"> {name} </h2>
                     <p className="card-email">
@@ -118,8 +116,8 @@ class Card extends Component {
                     </p>
                     <p className="card-job">{job}</p>
                     <p className="card-location">{location}</p>
-                </div> 
-                   
+                </div>
+
                 }
 
                 if (userHasWebsite) {
@@ -129,7 +127,7 @@ class Card extends Component {
                 }
 
                 if (userHasLinkedin) {
-                    return userHasLinkedin_ = 
+                    return userHasLinkedin_ =
                     <li>
                     <a href={linkedin} target="_blank" rel="noreferrer">
                       <span>
@@ -140,7 +138,7 @@ class Card extends Component {
                 }
 
                 if (userHasInstagram) {
-                    return userHasInstagram_ = 
+                    return userHasInstagram_ =
                     <li>
                   <a href={instagram} target="_blank" rel="noreferrer">
                     <span>
@@ -151,7 +149,7 @@ class Card extends Component {
                 }
 
                 if (userHasTwitter) {
-                    return userHasTwitter_ = 
+                    return userHasTwitter_ =
                     <li>
                   <a href={twitter} target="_blank" rel="noreferrer">
                     <span>
@@ -160,9 +158,7 @@ class Card extends Component {
                   </a>
                 </li>
                 }
-            
 
-    
                 return (
                 <>
                     <div className=" grow card-body">
@@ -177,12 +173,10 @@ class Card extends Component {
                         </ul>
                         </div>
                     </div>
-                
+
                 </>
                 );
   };
-
-
 
 // const Card = ({
 //   name,
@@ -213,9 +207,15 @@ class Card extends Component {
 //           </p>
 //           <p className="card-job">{job}</p>
 //           <p className="card-location">{location}</p>
-//           <a href={website} target="_blank" rel="noreferrer">
-//             <span className="card-website">(Click Me)</span>
-//           </a>
+        
+//           {
+//                 if (website !== "") {
+//                 <a href={website} target="_blank" rel="noreferrer">
+//                     <span className="card-website">Website</span>
+//                 </a> 
+//                 }
+//              } 
+
 //           <div className="card-social-media-container">
 //             <ul>
 //               <li>
