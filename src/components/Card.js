@@ -105,7 +105,7 @@ class Card extends Component {
     const userHasLocation = this.state.hasLocation;
 
     if (userHasName && userHasImage) {
-      return (hasNameAndImage) = (
+      return (hasNameAndImage = (
         <div className="card-image">
           <img src={image} alt={name} />
         </div>
@@ -113,7 +113,7 @@ class Card extends Component {
     }
 
     if (userHasTitle && userHasName && userHasEmail) {
-      return (hasBasicInfo) = (
+      return (hasBasicInfo = (
         <div className="card-text-content">
           <h1 className="card-title"> {title} </h1>
           <h2 className="card-name"> {name} </h2>
