@@ -105,15 +105,15 @@ class Card extends Component {
     const userHasLocation = this.state.hasLocation;
 
     if (userHasName && userHasImage) {
-      return (hasNameAndImage = (
+      let hasNameAndImage = (
         <div className="card-image">
           <img src={image} alt={name} />
         </div>
-      ));
+      );
     }
 
     if (userHasTitle && userHasName && userHasEmail) {
-      return (hasBasicInfo = (
+      let hasBasicInfo = (
         <div className="card-text-content">
           <h1 className="card-title"> {title} </h1>
           <h2 className="card-name"> {name} </h2>
@@ -125,19 +125,19 @@ class Card extends Component {
           <p className="card-job">{job}</p>
           <p className="card-location">{location}</p>
         </div>
-      ));
+      );
     }
 
     if (userHasWebsite) {
-      return (userHasWebsite_ = (
+      let userHasWebsite_ = (
         <a href={website} target="_blank" rel="noreferrer">
           <span className="card-website">(Click Me)</span>
         </a>
-      ));
+      );
     }
 
     if (userHasLinkedin) {
-      return (userHasLinkedin_ = (
+      let userHasLinkedin_ = (
         <li>
           <a href={linkedin} target="_blank" rel="noreferrer">
             <span>
@@ -145,11 +145,11 @@ class Card extends Component {
             </span>
           </a>
         </li>
-      ));
+      );
     }
 
     if (userHasInstagram) {
-      return (userHasInstagram_ = (
+      let userHasInstagram_ = (
         <li>
           <a href={instagram} target="_blank" rel="noreferrer">
             <span>
@@ -157,11 +157,11 @@ class Card extends Component {
             </span>
           </a>
         </li>
-      ));
+      );
     }
 
     if (userHasTwitter) {
-      return (userHasTwitter_ = (
+      let userHasTwitter_ = (
         <li>
           <a href={twitter} target="_blank" rel="noreferrer">
             <span>
@@ -169,7 +169,7 @@ class Card extends Component {
             </span>
           </a>
         </li>
-      ));
+      );
     }
 
     return (
