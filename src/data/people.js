@@ -82,7 +82,7 @@ export const people = [
     linkedin: "",
     instagram: "",
     twitter: "",
-    facebook: "",
+    facebook: "https://www.facebook.com/noriega.nikki95",
     location: "United States",
     job: "Mechanic",
   },
