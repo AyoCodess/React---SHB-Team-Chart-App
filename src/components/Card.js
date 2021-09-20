@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../scss/components/card.scss";
 import "tachyons";
 import Fragment from "react";
