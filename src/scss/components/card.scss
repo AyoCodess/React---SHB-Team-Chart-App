@@ -105,15 +105,27 @@ code {
       text-decoration: none;
       color: white;
     }
+
+    a:hover {
+      color: gold;
+    }
   }
 
   .card-website {
     color: white;
     font-weight: bold;
     text-decoration: none;
+
+    &:hover {
+      color: gold;
+    }
   }
 
   .card-social-media-container {
+    a:hover {
+      color: gold;
+    }
+
     padding-bottom: 2rem;
     ul {
       list-style: none;
