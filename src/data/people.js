@@ -92,7 +92,7 @@ export const people = [
     name: "Puneet Kumar",
     email: "",
     image: "https://i.imgur.com/UoHeWO5.jpg",
-    website: "www.taurushealthandfitness.co.uk",
+    website: "https://www.taurushealthandfitness.co.uk",
     linkedin: "",
     instagram: "https://www.instagram.com/starlon12/",
     twitter: "",
