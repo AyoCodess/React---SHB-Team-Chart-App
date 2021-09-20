@@ -20,6 +20,7 @@ const Card = ({
   linkedin,
   instagram,
   twitter,
+  facebook,
 }) => {
   return (
     <>
@@ -40,8 +41,13 @@ const Card = ({
             <p className="card-location">{location}</p>
           </div>
           {website && (
-            <a href={website} target="_blank" rel="noreferrer">
-              <span className="card-website">Visit Website</span>
+            <a
+              className="card-website"
+              href={website}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Visit Website</span>
             </a>
           )}
           <div className="card-social-media-container">
@@ -69,6 +75,15 @@ const Card = ({
                   <a href={twitter} target="_blank" rel="noreferrer">
                     <span>
                       <FontAwesomeIcon icon={["fab", "twitter"]} />
+                    </span>
+                  </a>
+                </li>
+              )}
+              {facebook && (
+                <li>
+                  <a href={facebook} target="_blank" rel="noreferrer">
+                    <span>
+                      <FontAwesomeIcon icon={["fab", "facebook"]} />
                     </span>
                   </a>
                 </li>
