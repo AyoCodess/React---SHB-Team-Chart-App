@@ -41,7 +41,7 @@ const Card = ({
           </div>
           {website && (
             <a href={website} target="_blank" rel="noreferrer">
-              <span className="card-website">(Click Me)</span>
+              <span className="card-website">Visit Website</span>
             </a>
           )}
           <div className="card-social-media-container">
