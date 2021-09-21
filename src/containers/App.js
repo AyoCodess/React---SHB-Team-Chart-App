@@ -31,12 +31,12 @@ const App = () => {
             questions.
           </p>
         </div>
-        <Searchbox searchField={searchField} searchChange={setSearchField} />
-        <Scroll>
-          <ErrorBoundary>
+        <ErrorBoundary>
+          <Searchbox searchField={searchField} searchChange={setSearchField} />
+          <Scroll>
             <CardList people={filteredPeople} />;
-          </ErrorBoundary>
-        </Scroll>
+          </Scroll>
+        </ErrorBoundary>
         <footer>
           <p className=" tc footer-title">
             <a
