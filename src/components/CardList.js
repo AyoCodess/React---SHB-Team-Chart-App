@@ -7,19 +7,19 @@ const CardList = ({ people }) => {
       {people.map((user, i) => {
         return (
           <Card
-            key={i}
-            id={people[i].id}
-            name={people[i].name}
-            email={people[i].email}
-            image={people[i].image}
-            title={people[i].title}
-            website={people[i].website}
-            linkedin={people[i].linkedin}
-            twitter={people[i].twitter}
-            instagram={people[i].instagram}
-            facebook={people[i].facebook}
-            location={people[i].location}
-            job={people[i].job}
+            key={user.id}
+            id={user.id}
+            name={user.name}
+            email={user.email}
+            image={user.image}
+            title={user.title}
+            website={user.website}
+            linkedin={user.linkedin}
+            twitter={user.twitter}
+            instagram={user.instagram}
+            facebook={user.facebook}
+            location={user.location}
+            job={user.job}
           />
         );
       })}

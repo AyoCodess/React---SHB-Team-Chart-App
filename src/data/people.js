@@ -1,6 +1,6 @@
 export const people = [
   {
-    id: 2,
+    id: 1,
     title: "Trustee",
     name: "Chris Jackson",
     email: "cj@stopholdingback.com",
@@ -15,7 +15,7 @@ export const people = [
   },
 
   {
-    id: 3,
+    id: 2,
     title: "Trustee",
     name: "Ruban Pillai",
     email: "ruban@stopholdingback.com",
@@ -30,7 +30,7 @@ export const people = [
   },
 
   {
-    id: 1,
+    id: 3,
     title: "Trustee",
     name: "Ayo Adesanya",
     email: "ayo@stopholdingback.com",
@@ -87,7 +87,7 @@ export const people = [
     job: "Mechanic",
   },
   {
-    id: 6,
+    id: 7,
     title: "Mentor",
     name: "Puneet Kumar",
     email: "",

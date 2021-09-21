@@ -28,7 +28,7 @@ const Card = ({
         <div className="card-image">
           {image && <img src={image} alt={name || "SHB Mentor Image"} />}
         </div>
-        <div class="card-body_container">
+        <div className="card-body_container">
           <div className="card-text-content">
             <h1 className="card-title"> {title} </h1>
             <h2 className="card-name"> {name} </h2>

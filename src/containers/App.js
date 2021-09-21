@@ -23,7 +23,7 @@ const App = () => {
   return (
     <>
       <div className="main-app tc">
-        <div class="header">
+        <div className="header">
           <h1 className=" app-title tc ">SHB Organisation</h1>
           <h2 className=" app-title app-title--sub tc">Find a Mentor</h2>
           <p className="app-description">
