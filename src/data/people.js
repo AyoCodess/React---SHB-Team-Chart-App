@@ -44,7 +44,7 @@ export const people = [
     location: "United Kingdom",
     facebook: "",
     messenger:"https://m.me/ayocodes",
-    job: "Wordpress & React Web Developer",
+    job: "React Web Developer",
   },
 
   {
