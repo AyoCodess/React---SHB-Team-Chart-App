@@ -20,6 +20,7 @@ const CardList = ({ people }) => {
             facebook={user.facebook}
             location={user.location}
             job={user.job}
+            messenger={user.messenger}
           />
         );
       })}

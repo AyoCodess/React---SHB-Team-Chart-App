@@ -21,6 +21,7 @@ const Card = ({
   instagram,
   twitter,
   facebook,
+  messenger
 }) => {
   return (
     <>
@@ -88,6 +89,14 @@ const Card = ({
                   </a>
                 </li>
               )}
+              {messenger && (
+                <li>
+                  <a href={messenger} target="_blank" rel="noreferrer">
+                    <span>
+                      <FontAwesomeIcon icon={["fab", "facebook-messenger"]} />
+                    </span>
+                  </a>
+                </li>)}
             </ul>
           </div>
         </div>
