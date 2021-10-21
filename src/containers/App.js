@@ -9,8 +9,10 @@ import ErrorBoundary from "../components/errorBoundary";
 const App = () => {
   const [searchField, setSearchField] = useState("");
 
+
   const filteredPeople = useMemo(
-    () =>
+    () => 
+
       people.filter((people) => {
         return (
           people.name.toLowerCase().includes(searchField.toLowerCase()) ||
@@ -18,7 +20,10 @@ const App = () => {
         );
       }),
     [searchField]
-  );
+  )
+
+
+
 
   return (
     <>
@@ -34,7 +39,7 @@ const App = () => {
         <ErrorBoundary>
           <Searchbox searchField={searchField} searchChange={setSearchField} />
           <Scroll>
-            <CardList people={filteredPeople} />;
+            <CardList people={filteredPeople} />
           </Scroll>
         </ErrorBoundary>
         <footer>

@@ -2,7 +2,15 @@ import React from "react";
 import Card from "../components/Card";
 
 const CardList = ({ people }) => {
+
+    console.log(people)
+
+
+
   return (
+    <>
+   {(people.length === 0 ) ?  <h1>No Mentor Found, please try another name or title.</h1> :
+
     <div className="tc card-container">
       {people.map((user, i) => {
         return (
@@ -24,7 +32,9 @@ const CardList = ({ people }) => {
           />
         );
       })}
-    </div>
+    </div> }
+
+    </>
   );
 };
 
